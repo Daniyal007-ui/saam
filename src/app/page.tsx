@@ -2,100 +2,193 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <>
+      <div className="h-auto w-full flex flex-col justify-around items-center py-10 px-4 sm:px-6 md:px-8 lg:px-16">
+        {/* Image section */}
+        <div className="text-center mb-8">
+          <Image src={"/pic1.jpeg"} alt="saam cream" height={200} width={200} className="mx-auto" />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+
+        {/* Main headline */}
+        <div className="bg-gradient-to-r from-white to-cyan-100 text-center py-6 px-4 sm:px-8 rounded-xl shadow-lg w-full md:w-4/5 lg:w-3/5">
+          <h1 className="text-xl sm:text-2xl md:text-3xl text-indigo-600 font-serif font-bold">
+            REMOVE MELSALMA, FRECKLES AND HYPERPIGMENTATION
+          </h1>
+          <h1 className="text-lg sm:text-xl md:text-2xl text-orange-400 font-mono font-semibold mt-2">
+            WITHIN 2 WEEKS
+          </h1>
+          <p className="text-base sm:text-lg md:text-xl text-black font-thin mt-4">
+            More than 1000 orders per day, reached the top of the best-selling face creams in the world✔️
+          </p>
+        </div>
+
+        {/* User satisfaction section */}
+        <p className="text-blue-500 text-lg text-center mt-4 max-w-4xl">
+          <span className="font-bold font-mono">More than 96%</span> of users are satisfied with its effectiveness after{" "}
+          <span className="font-bold font-mono">7 days of use</span>
+        </p>
+
+        {/* Refund guarantee */}
+        <div className="bg-red-600 h-16 sm:h-20 w-full mt-8 flex justify-center items-center">
+          <p className="text-white text-xl sm:text-2xl italic font-mono">
+            👉 SKIN DOES NOT IMPROVE, REFUND YOUR MONEY
+          </p>
+        </div>
+
+        {/* Customer image */}
+        <div className="mt-8">
+          <Image src={"/pic2.jpg"} alt="pic 2" height={300} width={300} className="mx-auto rounded-xl shadow-md" />
+        </div>
+
+        {/* Customer testimonial */}
+        <h3 className="font-mono italic text-2xl mt-4 text-center">A Saam customer used the cream after 3 weeks</h3>
+
+        <h3 className="font-mono text-xl mt-4 text-center border-2 border-cyan-300 rounded-2xl p-4 w-full sm:w-3/4 md:w-2/3 mx-auto">
+          💦Bringing beauty to <span className="font-bold">302,039 customers</span>, helping them{" "}
+          <span className="font-bold">remove dark spots,</span> be more confident and love life more with their skin
+        </h3>
+
+        {/* Additional customer images */}
+        <div className="mt-8">
+          <Image src={"/pic3.jpg"} alt="pic3" height={300} width={300} className="mx-auto rounded-xl shadow-md" />
+        </div>
+
+        {/* Product info */}
+        <h1 className="font-mono font-bold text-yellow-600 text-3xl text-center mt-8">SAAM⭐️</h1>
+        <h1 className="font-mono font-bold text-black text-3xl text-center">RENEWAL FACE CREAM</h1>
+        <p className="italic text-center mt-4 max-w-3xl mx-auto">
+          SAAM is the most advanced product, specializing in removing black spots and hyperpigmentation. Brings results after
+          only 14 days.
+        </p>
+
+        {/* Treatment benefits */}
+        <div className="mt-8 text-black text-xl bg-gradient-to-r from-slate-200 to-teal-200 font-serif text-start p-6 rounded-xl w-full sm:w-3/4 md:w-2/3 mx-auto">
+          <p>✨Treatment: Melasma, freckles, age spots, hyperpigmentation, and dark spots are removed</p>
+          <p>✨Brightens skin, tightens pores</p>
+          <p>✨Nourishes, restores skin, moisturizes, and makes skin smoother</p>
+        </div>
+
+        {/* Product image */}
+        <div className="mt-8">
+          <Image src={"/pic4.jpg"} alt="pic4" height={300} width={400} className="mx-auto rounded-xl shadow-md" />
+        </div>
+
+        {/* Remove dark spots call to action */}
+        <h1 className="mt-8 text-3xl text-blue-700 font-serif font-bold text-center">
+          Remove dark spots, bring back perfect skin in{" "}
+          <span className="text-orange-400 font-mono font-semibold">just 3 weeks</span>
+        </h1>
+
+        <p className="mt-3 font-serif text-xl text-black text-center max-w-3xl mx-auto">
+          You have tried many products, but it still does not go away. The black spots keep following you for a long time,
+          even getting worse ❗️
+        </p>
+
+        {/* Customer image */}
+        <div className="mt-8">
+          <Image src={"/pic5.jpeg"} alt="pic5" height={150} width={150} className="rounded-full mx-auto" />
+        </div>
+
+        {/* What are the advantages section */}
+        <h1 className="text-2xl font-semibold font-mono mt-8 text-red-600 text-center">
+          WHAT ARE THE ADVANTAGES OF SAAM CREAM?
+        </h1>
+
+        {/* Advantage 1 */}
+        <div className="mt-4 border p-6 text-xl border-cyan-300 rounded-2xl text-black font-mono w-full sm:w-3/4 md:w-2/3 mx-auto">
+          <div className="flex items-center space-x-4">
+            <Image src={"/pic6.jpg"} alt="pic6" height={150} width={100} className="rounded-full" />
+            <p>
+              High quality <span className="font-bold">Korean technology</span>, You can easily see that dark spots,
+              melasma, and freckles <span className="font-bold">will fade away in 7 days</span>
+            </p>
+          </div>
+        </div>
+
+        {/* Advantage 2 */}
+        <div className="mt-4 border p-6 text-xl border-cyan-300 rounded-2xl text-black font-mono w-full sm:w-3/4 md:w-2/3 mx-auto">
+          <div className="flex items-center space-x-4">
+            <Image src={"/pic7.jpg"} alt="pic7" height={150} width={100} className="rounded-full" />
+            <p>
+              If you use the cream daily, it will <span className="font-bold">remove dark spots from the root</span>,
+              maintaining beautiful and healthy skin from within.
+            </p>
+          </div>
+        </div>
+
+        {/* Advantage 3 */}
+        <div className="mt-4 border p-6 text-xl border-cyan-300 rounded-2xl text-black font-mono w-full sm:w-3/4 md:w-2/3 mx-auto">
+          <div className="flex items-center space-x-4">
+            <Image src={"/pic8.jpg"} alt="pic8" height={150} width={100} className="rounded-full" />
+            <p>
+              With many <span className="font-bold">natural ingredients,</span> it helps protect the skin from the
+              surrounding environment, <span className="font-bold">no side effects</span>. Can be used for all skin types
+            </p>
+          </div>
+        </div>
+
+        {/* Customer feedback */}
+        <div className="bg-gradient-to-r from-neutral-200 to-emerald-300 mt-8 p-6 rounded-xl shadow-lg">
+          <h1 className="text-3xl font-mono text-center font-semibold text-blue-400">BRINGING BEAUTY TO</h1>
+          <h1 className="text-3xl font-mono text-center font-semibold text-orange-400">302,039 CUSTOMERS</h1>
+
+          <div className="bg-white text-blue-600 border border-blue-600 mt-6 rounded-lg font-serif text-xl p-6">
+            With the mission of helping many customers regain their natural beauty. And we have helped more than 300,000
+            customers achieve that, and the number is growing.
+          </div>
+
+          <h1 className="text-black font-bold mt-6 text-center text-3xl font-mono">FEEDBACK FROM CUSTOMERS</h1>
+          <div className="mt-8 text-center">
+            <Image src={"/pic9.jpg"} height={400} width={400} alt="pic9" className="mx-auto rounded-xl shadow-md" />
+          </div>
+
+          <p className="text-xl border border-1px border-white rounded-3xl p-6 text-black mt-6 font-mono">
+            ✔️ I am really happy to have placed my trust in Saam and received great results. Feel happier and more confident than ever in your skin.
+          </p>
+
+          <div className="mt-8 text-center">
+            <Image src={"/pic10.jpg"} height={400} width={400} alt="pic10" className="mx-auto rounded-xl shadow-md" />
+          </div>
+        </div>
+
+        {/* Final call to action */}
+        <div>
+          <Image src={"/pic5.jpeg"} alt="saam cream" height={250} width={300} className="rounded-3xl mt-8 mx-auto" />
+        </div>
+
+        <h1 className="font-mono mt-8 font-bold text-yellow-600 text-3xl text-center">SAAM⭐️</h1>
+        <p className="text-xl italic font-mono mt-6 text-black text-center">
+          Try Saam Face cream now, the sooner you use it, the more effective it will be. Do not let the situation get worse.
+        </p>
+
+        <div className="mt-6 text-center text-2xl">🔶🔶🔶🔶</div>
+        <p className="text-xl text-center font-semibold font-serif mt-6 text-blue-600">
+          And this is also the time to offer a 50% discount for the fastest 100 customers.
+        </p>
+
+        {/* 50% sale button */}
+        <div className="text-4xl p-4 h-20px bg-red-500 rounded-full text-white mt-6 text-center">
+          Sale 50%
+        </div>
+
+        {/* Cash on delivery */}
+        <h1 className="mt-6 font-mono text-xl font-semibold italic text-black text-center">
+          CASH ON DELIVERY + FREE SHIPPING
+        </h1>
+
+        {/* Form inputs */}
+        <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto mt-6 space-y-4">
+          <input type="text" placeholder="Fill in Name:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
+          <input type="number" placeholder="Fill in Phone Number:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
+          <input type="text" placeholder="Fill in Address:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
+          <input type="text" placeholder="Your Country:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
+        </div>
+
+        {/* Final Order button */}
+        <div className="bg-red-600 h-16 text-center p-4 w-full mt-6 text-white font-mono text-2xl rounded-lg cursor-pointer">
+          ORDER NOW
+        </div>
+      </div>
+    </>
   );
 }
