@@ -139,7 +139,7 @@ export default function Home() {
             customers achieve that, and the number is growing.
           </div>
 
-          <h1 className="text-black font-bold mt-6 text-center text-3xl font-mono">FEEDBACK FROM CUSTOMERS</h1>
+          <h1 className="text-black font-bold mt-6  animate-flash text-center text-3xl font-mono">FEEDBACK FROM CUSTOMERS</h1>
           <div className="mt-8 text-center">
             <Image src={"/pic9.jpg"} height={400} width={400} alt="pic9" className="mx-auto rounded-xl shadow-md" />
           </div>
@@ -170,7 +170,7 @@ export default function Home() {
           </p>
 
           {/* 50% sale button */}
-          <div className="text-3xl p-3 h-16 w-13 bg-red-500 rounded-full text-white mt-6 text-center">
+          <div className="text-3xl p-3 h-16 w-13 animate-flash bg-red-500 rounded-full text-white mt-6 text-center">
             Sale 50%
           </div>
 

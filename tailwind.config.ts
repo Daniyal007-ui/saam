@@ -19,6 +19,16 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        flash: 'flash 1s ease-in-out infinite',  // Add the custom "flash" animation
+        },
+        keyframes: {
+        flash: {
+          '0%': { opacity: '1', color: '#243c5a' },  // Initial color and opacity
+          '50%': { opacity: '0.5', color: '#f43f5e' },  // Halfway - color and opacity change
+          '100%': { opacity: '1', color: '#243c5a' },  // Final color and opacity
+        }
+        },
     },
   },
   plugins: [],
