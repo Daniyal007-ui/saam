@@ -82,7 +82,7 @@ const OrderForm = () => {
             value={formData.name}
             onChange={handleChange}
             required
-            placeholder='Fill In Name'
+            placeholder='Name'
             className="border-4 h-16 text-2xl w-full  border-teal-500 px-4"
           />
         </div>
@@ -95,7 +95,7 @@ const OrderForm = () => {
             value={formData.contact}
             onChange={handleChange}
             required
-            placeholder='Fill In Contact'
+            placeholder='Contact'
             className="border-4 text-2xl w-full h-16 border-teal-500 px-4"
           />
         </div>
@@ -108,7 +108,7 @@ const OrderForm = () => {
             value={formData.city}
             onChange={handleChange}
             required
-            placeholder='Fill In city'
+            placeholder='City'
             className="border-4 text-2xl w-full h-16 border-teal-500 px-4"
           />
         </div>
@@ -121,7 +121,7 @@ const OrderForm = () => {
             value={formData.address}
             onChange={handleChange}
             required
-            placeholder='Fill In Address'
+            placeholder=' Address'
             className="border-4 text-2xl w-full h-16 border-teal-500 px-4"
           />
         </div>
@@ -135,9 +135,9 @@ const OrderForm = () => {
             required
             className="border-4 text-sm font-semibold w-full h-16 border-teal-500 px-4"
           >
-            <option value="1" >BUY 1 = 160 SAR + Free 1 Mini YOung</option>
-            <option value="2">BUY 2 = 250 SAR + Free 1 Mini YOung</option>
-            <option value="3">BUY 3 = 350 SAR + Free 1 Mini YOung</option>
+            <option value="1" >BUY 1 = 160 SAR + Free 1 Mini Serum</option>
+            <option value="2">BUY 2 = 250 SAR + Free 1 Mini Serum</option>
+            <option value="3">BUY 3 = 350 SAR + Free 1 Mini Serum</option>
           </select>
         </div>
 
