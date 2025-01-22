@@ -1,3 +1,4 @@
+import OrderForm from "@/components/OrderForm";
 import Image from "next/image";
 
 export default function Home() {
@@ -153,7 +154,7 @@ export default function Home() {
         </div>
 
         {/* Final call to action */}
-        <div className="shadow-2xl rounded-2xl mt-2 h-[1500px] shadow-emerald-600  p-2">
+        <div className="shadow-2xl rounded-2xl mt-2 h-[1800px] shadow-emerald-600  p-2">
           <div >
             <Image src={"/pic5.jpg"} alt="saam cream" height={250} width={300} className="rounded-3xl mt-8 mx-auto" />
           </div>
@@ -177,21 +178,24 @@ export default function Home() {
           <h1 className="mt-6 font-mono text-2xl font-semibold italic text-gray-600 text-center">
             CASH ON DELIVERY + FREE SHIPPING
           </h1>
+          <OrderForm />
 
-
-          {/* Form inputs */}
+          {/* Form inputs 
           <div className="w-full sm:w-3/4 md:w-2/3 p-2  lg:w-1/2 mx-auto mt-6 space-y-4">
-            <input type="text" placeholder="Fill in Name:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
+            <input type="text" placeholder="Fill in Name:" className="border-16 text-2x4 w-full h-l border-teal-500 px-4" />
             <input type="number" placeholder="Fill in Phone Number:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
             <input type="text" placeholder="Fill in Address:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
             <input type="text" placeholder="Your Country:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
+<select name="select" id="select">
+  <option value="1" className="border-4 w-full h-14 text-2xl border-teal-500 px-4">BUY 1 = 161 AED + Free 1 Mini Young</option>
+</select>
           </div>
 
-          {/* Final Order button */}
-          <div className="bg-red-600 h-18 text-center p-4 pb-3 w-full mt-6 text-white font-mono text-5xl rounded-lg cursor-pointer">
+          {/* Final Order button 
+          <div className="bg-red-600 h-18 text-center p-4 pb-3 w-full mt-6 text-white font-mon text-5xl rounded-lg cursor-pointer">
             ORDER NOW
           </div>
-
+*/}
         </div>
       </div>
 
