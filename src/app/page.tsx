@@ -56,7 +56,7 @@ export default function Home() {
 
         {/* Product info */}
         <h1 className="font-mono font-bold text-yellow-600 text-3xl text-center mt-8">SAAM⭐️</h1>
-        <h1 className="font-mono font-bold text-black text-3xl text-center">RENEWAL FACE CREAM</h1>
+        <h1 className="font-mono font-bold text-gray-600 text-3xl text-center">RENEWAL FACE CREAM</h1>
         <p className="italic text-center mt-4 max-w-3xl mx-auto">
           SAAM is the most advanced product, specializing in removing black spots and hyperpigmentation. Brings results after
           only 14 days.
@@ -80,7 +80,7 @@ export default function Home() {
           <span className="text-orange-400 font-mono font-semibold">just 3 weeks</span>
         </h1>
 
-        <p className="mt-3 font-serif text-xl text-black text-center max-w-3xl mx-auto">
+        <p className="mt-3 font-serif text-xl text-gray-500 text-center max-w-3xl mx-auto">
           You have tried many products, but it still does not go away. The black spots keep following you for a long time,
           even getting worse ❗️
         </p>
