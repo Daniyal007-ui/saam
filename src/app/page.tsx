@@ -31,7 +31,7 @@ export default function Home() {
 
         {/* Refund guarantee */}
         <div className="bg-red-600 h-16 sm:h-20 w-full  mt-8 flex justify-center items-center">
-          <p className="text-white text-2xl  px-2 italic font-mono">
+          <p className="text-white text-2xl sm:text-xl px-2 italic font-mono">
             👉 SKIN DOES NOT IMPROVE, REFUND YOUR MONEY
           </p>
         </div>
