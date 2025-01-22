@@ -169,25 +169,25 @@ export default function Home() {
         </p>
 
         {/* 50% sale button */}
-        <div className="text-4xl p-4 h-20px bg-red-500 rounded-full text-white mt-6 text-center">
+        <div className="text-4xl p-4 h-16 w-15 bg-red-500 rounded-full text-white mt-6 text-center">
           Sale 50%
         </div>
 
         {/* Cash on delivery */}
-        <h1 className="mt-6 font-mono text-xl font-semibold italic text-black text-center">
+        <h1 className="mt-6 font-mono text-2xl font-semibold italic text-gray-600 text-center">
           CASH ON DELIVERY + FREE SHIPPING
         </h1>
 
         {/* Form inputs */}
         <div className="w-full sm:w-3/4 md:w-2/3  lg:w-1/2 mx-auto mt-6 space-y-4">
-          <input type="text" placeholder="Fill in Name:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
-          <input type="number" placeholder="Fill in Phone Number:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
-          <input type="text" placeholder="Fill in Address:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
+          <input type="text" placeholder="Fill in Name:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
+          <input type="number" placeholder="Fill in Phone Number:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
+          <input type="text" placeholder="Fill in Address:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
           <input type="text" placeholder="Your Country:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
         </div>
 
         {/* Final Order button */}
-        <div className="bg-red-600 h-16 text-center p-4 w-full mt-6 text-white font-mono text-2xl rounded-lg cursor-pointer">
+        <div className="bg-red-600 h-20 text-center p-4 pb-3 w-full mt-6 text-white font-mono text-5xl rounded-lg cursor-pointer">
           ORDER NOW
         </div>
       </div>
