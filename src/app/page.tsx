@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="h-auto   w-full flex flex-col justify-around items-center py-6 px-2 sm:px-6 md:px-8 lg:px-16">
+      <div className="h-auto   w-full flex flex-col justify-around items-center py-6 px-4 sm:px-6 md:px-8 lg:px-16">
         {/* Image section */}
         <div className="bg-gradient-to-r from-cyan-100 to-emerald-200">
         <div className=" mb-8">
@@ -11,7 +11,7 @@ export default function Home() {
         </div>
 
         {/* Main headline */}
-        <div className="bg-gradient-to-r from-cyan-100 to-emerald-200 overflow-hidden py-3 sm:px-8 rounded-xl shadow-lg w-full md:w-4/5 lg:w-3/5">
+        <div className="bg-gradient-to-r from-cyan-100 to-emerald-200 overflow-hidden p-2 py-3 sm:px-8 rounded-xl shadow-lg w-full md:w-4/5 lg:w-3/5">
           <h1 className="text-2xl sm:text-2xl md:text-3xl text-indigo-600 font-serif font-bold">
             REMOVE MELSALMA, FRECKLES AND HYPERPIGMENTATION
           </h1>
@@ -30,8 +30,8 @@ export default function Home() {
         </p>
 
         {/* Refund guarantee */}
-        <div className="bg-red-600 h-16 sm:h-20 w-full mt-8 flex justify-center items-center">
-          <p className="text-white text-xl sm:text-2xl italic font-mono">
+        <div className="bg-red-600 h-16 sm:h-20 w-full  mt-8 flex justify-center items-center">
+          <p className="text-white text-2xl  px-2 italic font-mono">
             👉 SKIN DOES NOT IMPROVE, REFUND YOUR MONEY
           </p>
         </div>
@@ -153,23 +153,23 @@ export default function Home() {
         </div>
       
       {/* Final call to action */}
-      <div className="shadow-2xl shadow-cyan-700  p-2">
+      <div className="shadow-2xl shadow-sky-900  p-2">
         <div >
           <Image src={"/pic5.jpeg"} alt="saam cream" height={250} width={300} className="rounded-3xl mt-8 mx-auto" />
         </div>
 
         <h1 className="font-mono mt-8 font-bold text-yellow-600 text-3xl text-center">SAAM⭐️</h1>
-        <p className="text-2xl italic  font-mono mt-4 text-gray-500 ">
+        <p className="text-2xl italic p-2 font-mono mt-4 text-gray-500 ">
           Try Saam Face cream now, the sooner you use it, the more effective it will be. Do not let the situation get worse.
         </p>
 
         <div className="mt-6 text-center text-2xl">🔶🔶🔶🔶</div>
-        <p className="text-xl  font-semibold font-serif mt-6 text-blue-600">
+        <p className="text-xl p-2 font-semibold font-serif mt-6 text-blue-600">
           And this is also the time to offer a 50% discount for the fastest 100 customers.
         </p>
 
         {/* 50% sale button */}
-        <div className="text-4xl p-4 h-16 w-15 bg-red-500 rounded-full text-white mt-6 text-center">
+        <div className="text-3xl p-3 h-16 w-13 bg-red-500 rounded-full text-white mt-6 text-center">
           Sale 50%
         </div>
 
@@ -179,7 +179,7 @@ export default function Home() {
         </h1>
 
         {/* Form inputs */}
-        <div className="w-full sm:w-3/4 md:w-2/3  lg:w-1/2 mx-auto mt-6 space-y-4">
+        <div className="w-full sm:w-3/4 md:w-2/3 p-2  lg:w-1/2 mx-auto mt-6 space-y-4">
           <input type="text" placeholder="Fill in Name:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
           <input type="number" placeholder="Fill in Phone Number:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
           <input type="text" placeholder="Fill in Address:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
@@ -187,7 +187,7 @@ export default function Home() {
         </div>
 
         {/* Final Order button */}
-        <div className="bg-red-600 h-20 text-center p-4 pb-3 w-full mt-6 text-white font-mono text-5xl rounded-lg cursor-pointer">
+        <div className="bg-red-600 h-18 text-center p-4 pb-3 w-full mt-6 text-white font-mono text-5xl rounded-lg cursor-pointer">
           ORDER NOW
         </div>
       </div>
