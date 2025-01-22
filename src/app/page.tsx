@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-           <div className="w-full items-center bg-teal-200 flex justify-center"><Image src={"/logo.png"} alt="logo" height={200} width={200} className="object-center md:h-[60px]  sm:h-[50px] md:w-[150] sm:w-auto sm:pl-3"></Image></div>
+           <div className="w-full items-center bg-black flex justify-center"><Image src={"/logo.png"} alt="logo" height={200} width={200} className="object-center md:h-[60px]  sm:h-[50px] md:w-[150] sm:w-auto sm:pl-3"></Image></div>
 
       <div className="h-auto   w-full flex flex-col justify-around items-center py-6 px-4 sm:px-6 md:px-8 lg:px-16">
         {/* Image section */}
