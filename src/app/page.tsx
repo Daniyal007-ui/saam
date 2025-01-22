@@ -3,27 +3,28 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="h-auto w-full flex flex-col justify-around items-center py-10 px-4 sm:px-6 md:px-8 lg:px-16">
+      <div className="h-auto   w-full flex flex-col justify-around items-center py-6 px-2 sm:px-6 md:px-8 lg:px-16">
         {/* Image section */}
-        <div className="text-center mb-8">
-          <Image src={"/pic1.jpeg"} alt="saam cream" height={200} width={200} className="mx-auto" />
+        <div className="bg-gradient-to-r from-cyan-100 to-emerald-200">
+        <div className=" mb-8">
+          <Image src={"/pic1.webp"} alt="saam cream" height={400} width={400} className="mx-auto  bg-gradient-to-r from-cyan-100 to-cyan-100 " />
         </div>
 
         {/* Main headline */}
-        <div className="bg-gradient-to-r from-white to-cyan-100 text-center py-6 px-4 sm:px-8 rounded-xl shadow-lg w-full md:w-4/5 lg:w-3/5">
-          <h1 className="text-xl sm:text-2xl md:text-3xl text-indigo-600 font-serif font-bold">
+        <div className="bg-gradient-to-r from-cyan-100 to-emerald-200 overflow-hidden py-3 sm:px-8 rounded-xl shadow-lg w-full md:w-4/5 lg:w-3/5">
+          <h1 className="text-2xl sm:text-2xl md:text-3xl text-indigo-600 font-serif font-bold">
             REMOVE MELSALMA, FRECKLES AND HYPERPIGMENTATION
           </h1>
-          <h1 className="text-lg sm:text-xl md:text-2xl text-orange-400 font-mono font-semibold mt-2">
+          <h1 className="text-3xl sm:text-2xl md:text-3xl text-orange-400 font-mono font-semibold mt-2">
             WITHIN 2 WEEKS
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-black font-thin mt-4">
             More than 1000 orders per day, reached the top of the best-selling face creams in the world✔️
           </p>
         </div>
-
+</div>
         {/* User satisfaction section */}
-        <p className="text-blue-500 text-lg text-center mt-4 max-w-4xl">
+        <p className="text-blue-500 text-xl  mt-4 max-w-4xl">
           <span className="font-bold font-mono">More than 96%</span> of users are satisfied with its effectiveness after{" "}
           <span className="font-bold font-mono">7 days of use</span>
         </p>
@@ -37,19 +38,19 @@ export default function Home() {
 
         {/* Customer image */}
         <div className="mt-8">
-          <Image src={"/pic2.jpg"} alt="pic 2" height={300} width={300} className="mx-auto rounded-xl shadow-md" />
+          <Image src={"/pic2.jpg"} alt="pic 2" height={400} width={400} className="mx-auto rounded-xl shadow-md" />
         </div>
 
         {/* Customer testimonial */}
-        <h3 className="font-mono italic text-2xl mt-4 text-center">A Saam customer used the cream after 3 weeks</h3>
+        <h3 className="font-mono italic text-2xl mt-4 ">A Saam customer used the cream after 3 weeks</h3>
 
-        <h3 className="font-mono text-xl mt-4 text-center border-2 border-cyan-300 rounded-2xl p-4 w-full sm:w-3/4 md:w-2/3 mx-auto">
+        <h3 className="font-mono text-xl mt-4  border-2 border-cyan-300 rounded-2xl p-4 w-full sm:w-3/4 md:w-2/3 mx-auto">
           💦Bringing beauty to <span className="font-bold">302,039 customers</span>, helping them{" "}
           <span className="font-bold">remove dark spots,</span> be more confident and love life more with their skin
         </h3>
 
         {/* Additional customer images */}
-        <div className="mt-8">
+        <div className="mt-4">
           <Image src={"/pic3.jpg"} alt="pic3" height={300} width={300} className="mx-auto rounded-xl shadow-md" />
         </div>
 
@@ -74,7 +75,7 @@ export default function Home() {
         </div>
 
         {/* Remove dark spots call to action */}
-        <h1 className="mt-8 text-3xl text-blue-700 font-serif font-bold text-center">
+        <h1 className="mt-8 text-3xl text-blue-700 font-serif font-bold ">
           Remove dark spots, bring back perfect skin in{" "}
           <span className="text-orange-400 font-mono font-semibold">just 3 weeks</span>
         </h1>
@@ -129,8 +130,8 @@ export default function Home() {
 
         {/* Customer feedback */}
         <div className="bg-gradient-to-r from-neutral-200 to-emerald-300 mt-8 p-6 rounded-xl shadow-lg">
-          <h1 className="text-3xl font-mono text-center font-semibold text-blue-400">BRINGING BEAUTY TO</h1>
-          <h1 className="text-3xl font-mono text-center font-semibold text-orange-400">302,039 CUSTOMERS</h1>
+          <h1 className="text-2xl font-mono text-center font-bold text-blue-700">BRINGING BEAUTY TO</h1>
+          <h1 className="text-2xl font-mono  font-bold text-center text-orange-400">302,039 CUSTOMERS</h1>
 
           <div className="bg-white text-blue-600 border border-blue-600 mt-6 rounded-lg font-serif text-xl p-6">
             With the mission of helping many customers regain their natural beauty. And we have helped more than 300,000
@@ -150,19 +151,20 @@ export default function Home() {
             <Image src={"/pic10.jpg"} height={400} width={400} alt="pic10" className="mx-auto rounded-xl shadow-md" />
           </div>
         </div>
-
-        {/* Final call to action */}
-        <div>
+      
+      {/* Final call to action */}
+      <div className="shadow-2xl shadow-cyan-700  p-2">
+        <div >
           <Image src={"/pic5.jpeg"} alt="saam cream" height={250} width={300} className="rounded-3xl mt-8 mx-auto" />
         </div>
 
         <h1 className="font-mono mt-8 font-bold text-yellow-600 text-3xl text-center">SAAM⭐️</h1>
-        <p className="text-xl italic font-mono mt-6 text-black text-center">
+        <p className="text-2xl italic  font-mono mt-4 text-black ">
           Try Saam Face cream now, the sooner you use it, the more effective it will be. Do not let the situation get worse.
         </p>
 
         <div className="mt-6 text-center text-2xl">🔶🔶🔶🔶</div>
-        <p className="text-xl text-center font-semibold font-serif mt-6 text-blue-600">
+        <p className="text-xl  font-semibold font-serif mt-6 text-blue-600">
           And this is also the time to offer a 50% discount for the fastest 100 customers.
         </p>
 
@@ -177,7 +179,7 @@ export default function Home() {
         </h1>
 
         {/* Form inputs */}
-        <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto mt-6 space-y-4">
+        <div className="w-full sm:w-3/4 md:w-2/3  lg:w-1/2 mx-auto mt-6 space-y-4">
           <input type="text" placeholder="Fill in Name:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
           <input type="number" placeholder="Fill in Phone Number:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
           <input type="text" placeholder="Fill in Address:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
@@ -189,6 +191,8 @@ export default function Home() {
           ORDER NOW
         </div>
       </div>
+      </div>
+
     </>
   );
 }
