@@ -96,10 +96,10 @@ export default function Home() {
         </h1>
 
         {/* Advantage 1 */}
-        <div className="mt-4 border p-6 text-xl border-cyan-300 rounded-2xl text-black font-mono w-full sm:w-3/4 md:w-2/3 mx-auto">
+        <div className="mt-4 border p-6 text-xl border-cyan-300 rounded-2xl font-mono w-full sm:w-3/4 md:w-2/3 mx-auto">
           <div className="flex items-center space-x-4">
             <Image src={"/pic6.jpg"} alt="pic6" height={150} width={100} className="rounded-full" />
-            <p>
+            <p className="text-gray-500">
               High quality <span className="font-bold">Korean technology</span>, You can easily see that dark spots,
               melasma, and freckles <span className="font-bold">will fade away in 7 days</span>
             </p>
@@ -110,7 +110,7 @@ export default function Home() {
         <div className="mt-4 border p-6 text-xl border-cyan-300 rounded-2xl text-black font-mono w-full sm:w-3/4 md:w-2/3 mx-auto">
           <div className="flex items-center space-x-4">
             <Image src={"/pic7.jpg"} alt="pic7" height={150} width={100} className="rounded-full" />
-            <p>
+            <p className="text-gray-500">
               If you use the cream daily, it will <span className="font-bold">remove dark spots from the root</span>,
               maintaining beautiful and healthy skin from within.
             </p>
@@ -121,7 +121,7 @@ export default function Home() {
         <div className="mt-4 border p-6 text-xl border-cyan-300 rounded-2xl text-black font-mono w-full sm:w-3/4 md:w-2/3 mx-auto">
           <div className="flex items-center space-x-4">
             <Image src={"/pic8.jpg"} alt="pic8" height={150} width={100} className="rounded-full" />
-            <p>
+            <p className="text-gray-500">
               With many <span className="font-bold">natural ingredients,</span> it helps protect the skin from the
               surrounding environment, <span className="font-bold">no side effects</span>. Can be used for all skin types
             </p>
