@@ -159,7 +159,7 @@ export default function Home() {
         </div>
 
         <h1 className="font-mono mt-8 font-bold text-yellow-600 text-3xl text-center">SAAM⭐️</h1>
-        <p className="text-2xl italic  font-mono mt-4 text-black ">
+        <p className="text-2xl italic  font-mono mt-4 text-gray-400 ">
           Try Saam Face cream now, the sooner you use it, the more effective it will be. Do not let the situation get worse.
         </p>
 
