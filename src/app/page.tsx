@@ -154,7 +154,7 @@ export default function Home() {
         </div>
 
         {/* Final call to action */}
-        <div className="shadow-2xl rounded-2xl mt-2 h-[1800px] shadow-emerald-600  p-2">
+        <div className="shadow-2xl rounded-2xl mt-2 h-[1700px] shadow-emerald-600  p-2">
           <div >
             <Image src={"/pic5.jpg"} alt="saam cream" height={250} width={300} className="rounded-3xl mt-8 mx-auto" />
           </div>
