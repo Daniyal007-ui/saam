@@ -6,23 +6,23 @@ export default function Home() {
       <div className="h-auto   w-full flex flex-col justify-around items-center py-6 px-4 sm:px-6 md:px-8 lg:px-16">
         {/* Image section */}
         <div className="bg-gradient-to-r from-cyan-100 to-emerald-200">
-        <div className=" mb-8">
-          <Image src={"/pic1.webp"} alt="saam cream" height={400} width={400} className="mx-auto  bg-gradient-to-r from-cyan-100 to-cyan-100 " />
-        </div>
+          <div className=" mb-8">
+            <Image src={"/pic1.jpg"} alt="saam cream" height={400} width={400} className="mx-auto  bg-gradient-to-r from-cyan-100 to-cyan-100 " />
+          </div>
 
-        {/* Main headline */}
-        <div className="bg-gradient-to-r from-cyan-100 to-emerald-200 overflow-hidden p-2 py-3 sm:px-8 rounded-xl shadow-lg w-full md:w-4/5 lg:w-3/5">
-          <h1 className="text-2xl sm:text-2xl md:text-3xl text-indigo-600 font-serif font-bold">
-            REMOVE MELSALMA, FRECKLES AND HYPERPIGMENTATION
-          </h1>
-          <h1 className="text-3xl sm:text-2xl md:text-3xl text-orange-400 font-mono font-semibold mt-2">
-            WITHIN 2 WEEKS
-          </h1>
-          <p className="text-base sm:text-lg md:text-xl text-black font-thin mt-4">
-            More than 1000 orders per day, reached the top of the best-selling face creams in the world✔️
-          </p>
+          {/* Main headline */}
+          <div className="bg-gradient-to-r from-cyan-100 to-emerald-200 overflow-hidden p-2 py-3 sm:px-8 rounded-xl shadow-lg w-full md:w-4/5 lg:w-3/5">
+            <h1 className="text-2xl sm:text-2xl md:text-3xl text-indigo-600 font-serif font-bold">
+              REMOVE MELSALMA, FRECKLES AND HYPERPIGMENTATION
+            </h1>
+            <h1 className="text-3xl sm:text-2xl md:text-3xl text-orange-400 font-mono font-semibold mt-2">
+              WITHIN 2 WEEKS
+            </h1>
+            <p className="text-base sm:text-lg md:text-xl text-black font-thin mt-4">
+              More than 1000 orders per day, reached the top of the best-selling face creams in the world✔️
+            </p>
+          </div>
         </div>
-</div>
         {/* User satisfaction section */}
         <p className="text-blue-500 text-xl  mt-4 max-w-4xl">
           <span className="font-bold font-mono">More than 96%</span> of users are satisfied with its effectiveness after{" "}
@@ -42,7 +42,7 @@ export default function Home() {
         </div>
 
         {/* Customer testimonial */}
-        <h3 className="font-mono italic text-2xl mt-4 ">A Saam customer used the cream after 3 weeks</h3>
+        <h3 className="font-mono p-2 italic text-2xl mt-4 ">A Saam customer used the cream after 3 weeks</h3>
 
         <h3 className="font-mono text-xl mt-4  border-2 border-cyan-300 rounded-2xl p-4 w-full sm:w-3/4 md:w-2/3 mx-auto">
           💦Bringing beauty to <span className="font-bold">302,039 customers</span>, helping them{" "}
@@ -51,7 +51,7 @@ export default function Home() {
 
         {/* Additional customer images */}
         <div className="mt-4">
-          <Image src={"/pic3.jpg"} alt="pic3" height={300} width={300} className="mx-auto rounded-xl shadow-md" />
+          <Image src={"/pic3.jpg"} alt="pic3" height={350} width={350} className="mx-auto rounded-xl shadow-md" />
         </div>
 
         {/* Product info */}
@@ -87,7 +87,7 @@ export default function Home() {
 
         {/* Customer image */}
         <div className="mt-8">
-          <Image src={"/pic5.jpeg"} alt="pic5" height={150} width={150} className="rounded-full mx-auto" />
+          <Image src={"/pic5.jpg"} alt="pic5" height={150} width={150} className="rounded-full mx-auto" />
         </div>
 
         {/* What are the advantages section */}
@@ -129,7 +129,7 @@ export default function Home() {
         </div>
 
         {/* Customer feedback */}
-        <div className="bg-gradient-to-r from-neutral-200 to-emerald-300 mt-8 p-6 rounded-xl shadow-lg">
+        <div className="bg-gradient-to-r from-neutral-200 to-sky-300 mt-8 p-6 rounded-xl shadow-lg">
           <h1 className="text-2xl font-mono text-center font-bold text-blue-700">BRINGING BEAUTY TO</h1>
           <h1 className="text-2xl font-mono  font-bold text-center text-orange-400">302,039 CUSTOMERS</h1>
 
@@ -151,46 +151,48 @@ export default function Home() {
             <Image src={"/pic10.jpg"} height={400} width={400} alt="pic10" className="mx-auto rounded-xl shadow-md" />
           </div>
         </div>
-      
-      {/* Final call to action */}
-      <div className="shadow-2xl shadow-sky-900  p-2">
-        <div >
-          <Image src={"/pic5.jpeg"} alt="saam cream" height={250} width={300} className="rounded-3xl mt-8 mx-auto" />
+
+        {/* Final call to action */}
+        <div className="shadow-2xl rounded-2xl mt-2 h-[1500px] shadow-emerald-600  p-2">
+          <div >
+            <Image src={"/pic5.jpg"} alt="saam cream" height={250} width={300} className="rounded-3xl mt-8 mx-auto" />
+          </div>
+
+          <h1 className="font-mono mt-8 font-bold text-yellow-600 text-3xl text-center">SAAM⭐️</h1>
+          <p className="text-2xl italic p-2 font-mono mt-4 text-gray-500 ">
+            Try Saam Face cream now, the sooner you use it, the more effective it will be. Do not let the situation get worse.
+          </p>
+
+          <div className="mt-6 text-center text-2xl">🔶🔶🔶🔶</div>
+          <p className="text-xl p-2 font-semibold font-serif mt-6 text-blue-600">
+            And this is also the time to offer a 50% discount for the fastest 100 customers.
+          </p>
+
+          {/* 50% sale button */}
+          <div className="text-3xl p-3 h-16 w-13 bg-red-500 rounded-full text-white mt-6 text-center">
+            Sale 50%
+          </div>
+
+          {/* Cash on delivery */}
+          <h1 className="mt-6 font-mono text-2xl font-semibold italic text-gray-600 text-center">
+            CASH ON DELIVERY + FREE SHIPPING
+          </h1>
+
+
+          {/* Form inputs */}
+          <div className="w-full sm:w-3/4 md:w-2/3 p-2  lg:w-1/2 mx-auto mt-6 space-y-4">
+            <input type="text" placeholder="Fill in Name:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
+            <input type="number" placeholder="Fill in Phone Number:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
+            <input type="text" placeholder="Fill in Address:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
+            <input type="text" placeholder="Your Country:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
+          </div>
+
+          {/* Final Order button */}
+          <div className="bg-red-600 h-18 text-center p-4 pb-3 w-full mt-6 text-white font-mono text-5xl rounded-lg cursor-pointer">
+            ORDER NOW
+          </div>
+
         </div>
-
-        <h1 className="font-mono mt-8 font-bold text-yellow-600 text-3xl text-center">SAAM⭐️</h1>
-        <p className="text-2xl italic p-2 font-mono mt-4 text-gray-500 ">
-          Try Saam Face cream now, the sooner you use it, the more effective it will be. Do not let the situation get worse.
-        </p>
-
-        <div className="mt-6 text-center text-2xl">🔶🔶🔶🔶</div>
-        <p className="text-xl p-2 font-semibold font-serif mt-6 text-blue-600">
-          And this is also the time to offer a 50% discount for the fastest 100 customers.
-        </p>
-
-        {/* 50% sale button */}
-        <div className="text-3xl p-3 h-16 w-13 bg-red-500 rounded-full text-white mt-6 text-center">
-          Sale 50%
-        </div>
-
-        {/* Cash on delivery */}
-        <h1 className="mt-6 font-mono text-2xl font-semibold italic text-gray-600 text-center">
-          CASH ON DELIVERY + FREE SHIPPING
-        </h1>
-
-        {/* Form inputs */}
-        <div className="w-full sm:w-3/4 md:w-2/3 p-2  lg:w-1/2 mx-auto mt-6 space-y-4">
-          <input type="text" placeholder="Fill in Name:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
-          <input type="number" placeholder="Fill in Phone Number:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
-          <input type="text" placeholder="Fill in Address:" className="border-4 w-full h-16 text-2xl border-teal-500 px-4" />
-          <input type="text" placeholder="Your Country:" className="border-4 w-full h-14 text-2xl border-teal-500 px-4" />
-        </div>
-
-        {/* Final Order button */}
-        <div className="bg-red-600 h-18 text-center p-4 pb-3 w-full mt-6 text-white font-mono text-5xl rounded-lg cursor-pointer">
-          ORDER NOW
-        </div>
-      </div>
       </div>
 
     </>
