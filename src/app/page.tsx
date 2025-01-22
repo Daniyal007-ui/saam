@@ -4,11 +4,13 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
+           <div className="text-center flex justify-center"><Image src={"/logo.png"} alt="logo" height={100} width={100}></Image></div>
+
       <div className="h-auto   w-full flex flex-col justify-around items-center py-6 px-4 sm:px-6 md:px-8 lg:px-16">
         {/* Image section */}
-        <div className="bg-gradient-to-r from-cyan-100 to-emerald-200">
-          <div className=" mb-8">
-            <Image src={"/pic1.jpg"} alt="saam cream" height={400} width={400} className="mx-auto  bg-gradient-to-r from-cyan-100 to-cyan-100 " />
+        <div className="bg-gradient-to-r from-cyan-100 to-emerald-200 mt-2" >
+          <div className=" mb-5">
+            <Image src={"/pic1.jpg"} alt="saam cream" height={300} width={300} className="mx-auto  bg-gradient-to-r from-cyan-100 to-cyan-100 " />
           </div>
 
           {/* Main headline */}
